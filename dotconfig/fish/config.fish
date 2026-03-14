@@ -35,4 +35,3 @@ zoxide init fish | source
 function reset_cursor --on-event fish_prompt
   echo -ne '\e[5 q'
 end
-
