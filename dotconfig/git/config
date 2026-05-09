@@ -24,7 +24,7 @@
   autocrlf = false
   filemode = false
   ignorecase = false
-  sshCommand = /mnt/c/Windows/System32/OpenSSH/ssh.exe
+  sshCommand = /usr/bin/ssh
   pager = delta
 
 [delta]
@@ -36,7 +36,7 @@
   conflictstyle = diff3
 
 [gpg "ssh"]
-  program = /mnt/c/Windows/System32/OpenSSH/ssh-keygen.exe
+  program = /usr/bin/ssh-keygen
 
 [diff]
   colorMoved = default
